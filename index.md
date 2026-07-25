@@ -91,7 +91,7 @@ The goal of [Milestone 1](https://github.com/orgs/outdoor-buddies/projects/1) wa
 
 ### Milestone 2: Data model development
 
-The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
+The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) is to implement the data model: for hikes and for users/groups on the site. We will also be fixing certain login issues and having a consistent style across the whole project.
 
 ## Milestone 3: Final touches
 
