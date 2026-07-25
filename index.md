@@ -3,17 +3,23 @@
 ## Table of contents
 
 * [Overview](#overview)
+* [Deployment](#deployment)
 * [User Guide](#user-guide)
 * [Development History](#development-history)
 * [Team](#team)
 
 ## Overview
 
-## Project Goals
+### Project Goals
 
 Outdoor Buddies aims to help students find others interested in hiking, running, and walking around Oahu. The application will allow users to create profiles, discover compatible groups and activities, join outdoor events, and share information about local outdoor locations.
 
 The goal is to make outdoor activities more accessible, social, and safer by helping students connect with others who share similar interests and preferences.
+
+## Deployment
+
+Our application is actively being developed and is deployed via Vercel.  
+[View Outdoor Buddies Live](https://brycenk05.github.io/)
 
 ## User Guide
 
