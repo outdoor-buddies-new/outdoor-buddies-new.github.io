@@ -11,7 +11,7 @@
 
 ## User Guide
 
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section provides a walkthrough of the Outdoor Buddies user interface and its capabilities.
 
 ## Project Goals
 
@@ -27,17 +27,20 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ### Index pages (Projects, Profiles, Interests)
 
-Bowfolios provides three public pages that present the contents of the database organized in various ways.
+Outdoor Buddies provides four public pages that help users navigate the site in different ways.
 
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
+The Profiles page shows all the current defined profiles and their associated Groups:
 
 ![](images/profiles-page.png)
 
-The Projects page shows all the currently defined Projects and their associated Profiles and Interests:
+The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description:
 
 ![](images/projects-page.png)
 
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
+The Hike Reccomendation page shows hikes that people like to do and reccomend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
+put image here
+
+Finally, the Announcements page which shows any updates made by the Administrators as well as events that are being hosted outside of the website:
 
 ![](images/interests-page.png)
 
@@ -60,7 +63,7 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 ### Add Project page
 
-Once you are logged in, you can define new projects with the Add Project page:
+Once you are logged in, you can request to join different Groups:
 
 ![](images/add-project-page.png)
 
@@ -88,5 +91,5 @@ The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
 
 ## Team
 
-OutdoorBuddies is designed, implemented, and maintained by [Brycen Kano](https://brycenk05.github.io/) and [Kelly Masaki](https://kellym12.github.io/Professional-Portfolio/).
+OutdoorBuddies is designed, implemented, and maintained by [Brycen Kano](https://brycenk05.github.io/) and [Kelly Masaki](https://kellym12.github.io/Professional-Portfolio/).  
 Our [Team Contract](https://docs.google.com/document/d/11j764LAw7YHbRscZZDggGGVZIzsIFAGyGOxQO0eoB1g/edit?tab=t.0) is viewable here.
