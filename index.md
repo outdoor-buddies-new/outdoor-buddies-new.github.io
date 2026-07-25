@@ -9,15 +9,15 @@
 
 ## Overview
 
-## User Guide
-
-This section provides a walkthrough of the Outdoor Buddies user interface and its capabilities.
-
 ## Project Goals
 
 Outdoor Buddies aims to help students find others interested in hiking, running, and walking around Oahu. The application will allow users to create profiles, discover compatible groups and activities, join outdoor events, and share information about local outdoor locations.
 
 The goal is to make outdoor activities more accessible, social, and safer by helping students connect with others who share similar interests and preferences.
+
+## User Guide
+
+This section provides a walkthrough of the Outdoor Buddies user interface and its capabilities.
 
 ### Landing Page
 
@@ -61,18 +61,12 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 ![](images/home-page.png)
 
-### Add Project page
+### Request to join Group
 
 Once you are logged in, you can request to join different Groups:
 
 ![](images/add-project-page.png)
 
-
-### Filter page
-
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
-
-![](images/filter-page.png)
 
 ## Development History
 
