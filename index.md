@@ -19,7 +19,7 @@ The goal is to make outdoor activities more accessible, social, and safer by hel
 ## Deployment
 
 Our application is actively being developed and is deployed via Vercel.  
-[View Outdoor Buddies Live](https://brycenk05.github.io/)
+[View Outdoor Buddies Live](https://my-nextjs-application-2w45ow2b3-outdoor-buddies.vercel.app/)
 
 ## User Guide
 
@@ -29,17 +29,17 @@ This section provides a walkthrough of the Outdoor Buddies user interface and it
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/landing-page.png)
+![](./images/landing-page.png)
 
 ### Sign in and sign up
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signin-page.png)
+![](./images/signin-page.png)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/signup-page.png)
+![](./images/signup-page.png)
 
 ### Index pages (Announcements, Hike Recommendation, Groups, Profiles)
 
@@ -47,7 +47,7 @@ Outdoor Buddies provides four public pages that help users navigate the site in 
 
 The Profiles page shows all the current defined profiles and their associated Groups:
 
-![](images/announcements-page.png)
+![](./images/announcements-page.png)
 
 The announcements page offers the admins a way to interact with users through events and announcements. When a developer is signed in, they have access to a button to create an announcement that will redirect to page where they can input info to share with users whether it be events, updates or more.
 
@@ -58,15 +58,15 @@ put image here
 
 Finally, the Announcements page which shows any updates made by the Administrators as well as events that are being hosted outside of the website:
 
-![](images/profiles-page.png)
+![](./images/profiles-page.png)
 
 The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description:
 
-![](images/interests-page.png)
+![](./images/groups-page.png)
 
 ### Admin page
 
-![](images/admin-page.png)
+![](./images/admin-page.png)
 
 While undecided, we have kept the admin page in case of reference and for proof of sign in protection working properly. However, we are facing issues with signing in on the deployed vercel site, an issue that we aim to address in M2
 
@@ -74,13 +74,13 @@ While undecided, we have kept the admin page in case of reference and for proof 
 
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 
-![](images/home-page.png)
+work in progress
 
 ### Request to join Group
 
-Once you are logged in, you can request to join different Groups:
+Once you are logged in, you can request to join different Groups:  
 
-![](images/add-project-page.png)
+work in progress
 
 
 ## Development History
