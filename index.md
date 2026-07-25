@@ -31,26 +31,6 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ![](images/landing-page.png)
 
-### Index pages (Projects, Profiles, Interests)
-
-Outdoor Buddies provides four public pages that help users navigate the site in different ways.
-
-The Profiles page shows all the current defined profiles and their associated Groups:
-
-![](images/profiles-page.png)
-
-The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description:
-
-![](images/projects-page.png)
-
-The Hike Reccomendation page shows hikes that people like to do and reccomend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
-put image here
-
-Finally, the Announcements page which shows any updates made by the Administrators as well as events that are being hosted outside of the website:
-
-![](images/interests-page.png)
-
-
 ### Sign in and sign up
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
@@ -60,6 +40,35 @@ Click on the "Login" button in the upper right corner of the navbar, then select
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
 ![](images/signup-page.png)
+
+### Index pages (Announcements, Hike Recommendation, Groups, Profiles)
+
+Outdoor Buddies provides four public pages that help users navigate the site in different ways.
+
+The Profiles page shows all the current defined profiles and their associated Groups:
+
+![](images/announcements-page.png)
+
+The announcements page offers the admins a way to interact with users through events and announcements. When a developer is signed in, they have access to a button to create an announcement that will redirect to page where they can input info to share with users whether it be events, updates or more.
+
+![](images/hiking-recommendations-page.png)
+
+The Hike Reccomendation page shows hikes that people like to do and reccomend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
+put image here
+
+Finally, the Announcements page which shows any updates made by the Administrators as well as events that are being hosted outside of the website:
+
+![](images/profiles-page.png)
+
+The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description:
+
+![](images/interests-page.png)
+
+### Admin page
+
+![](images/admin-page.png)
+
+While undecided, we have kept the admin page in case of reference and for proof of sign in protection working properly. However, we are facing issues with signing in on the deployed vercel site, an issue that we aim to address in M2
 
 ### Home page
 
@@ -78,7 +87,7 @@ Once you are logged in, you can request to join different Groups:
 
 ### Milestone 1: Mockup development
 
-The goal of Milestone 1 is to create a set of HTML pages providing a mockup of the pages in the system.
+The goal of Milestone 1 was to create mockups of each of the pages for our Outdoor Buddies Website
 
 ### Milestone 2: Data model development
 
