@@ -87,11 +87,11 @@ work in progress
 
 ### Milestone 1: Mockup development
 
-The goal of Milestone 1 was to create mockups of each of the pages for our Outdoor Buddies Website
+The goal of [Milestone 1](https://github.com/orgs/outdoor-buddies/projects/1) was to create mockups of each of the pages for our Outdoor Buddies Website
 
 ### Milestone 2: Data model development
 
-The goal of Milestone 2 is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
+The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
 
 ## Milestone 3: Final touches
 
