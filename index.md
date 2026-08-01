@@ -1,3 +1,5 @@
+[![CI](https://github.com/YOUR-ORG/YOUR-REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-ORG/YOUR-REPO/actions/workflows/ci.yml)
+
 # Outdoor Buddies
 
 ## Table of contents
@@ -45,24 +47,34 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 Outdoor Buddies provides four public pages that help users navigate the site in different ways.
 
+![](./images/profiles-page.png)
+
 The Profiles page shows all the current defined profiles and their associated Groups:
 
 ![](./images/announcements-page.png)
 
 The announcements page offers the admins a way to interact with users through events and announcements. When a developer is signed in, they have access to a button to create an announcement that will redirect to page where they can input info to share with users whether it be events, updates or more.
 
+An admin/developer can add and edit existing announcements in the announcements page
+
+![](./images/announcements-page-add.png)
+
+![](./images/announcements-page-edit.png)
+
 ![](images/hiking-recommendations-page.png)
 
 The Hike Reccomendation page shows hikes that people like to do and reccomend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
 put image here
 
-Finally, the Announcements page which shows any updates made by the Administrators as well as events that are being hosted outside of the website:
-
-![](./images/profiles-page.png)
+While it isn't shown, the search function does work and searches by name of the trail and the location.
 
 The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description:
 
 ![](./images/groups-page.png)
+
+Users can also create a hiking group when you click on the top left and will be redirected to a form:
+
+![](./images/groups-page-add.png)
 
 ### Admin page
 
