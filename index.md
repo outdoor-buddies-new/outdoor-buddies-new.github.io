@@ -33,7 +33,7 @@ The goal is to make outdoor activities more accessible, social, and safer by hel
 ## Deployment
 
 Our application is actively being developed and is deployed via Vercel.  
-[View Outdoor Buddies Live](https://my-nextjs-application-2w45ow2b3-outdoor-buddies.vercel.app/)
+[View Outdoor Buddies Live](https://my-nextjs-application-lbc3i1d4t-outdoor-buddies.vercel.app/)
 
 ## User Guide
 
@@ -41,7 +41,7 @@ This section provides a walkthrough of the Outdoor Buddies user interface and it
 
 ### Landing Page
 
-The landing page is presented to users when they visit the top-level URL to the site.
+The landing page is presented to users when they visit the top-level URL to the site. This allows users to see what the mission statement of the website is to determine if they would like to utilize it. 
 
 ![](./images/landing-page.png)
 
@@ -57,11 +57,11 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ### Index pages (Announcements, Hike Recommendation, Groups, Profiles)
 
-Outdoor Buddies provides four public pages that help users navigate the site in different ways.
+Outdoor Buddies provides four public pages that help users navigate the site in different ways. Users are encouraged to log in to their profiles when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
 
 ![](./images/profiles-page.png)
 
-The Profiles page shows all the current defined profiles and their associated Groups:
+The Profiles page shows all the current defined Profiles and their associated Groups:
 
 ![](./images/announcements-page.png)
 
@@ -75,8 +75,7 @@ An admin/developer can add and edit existing announcements in the announcements 
 
 ![](images/hiking-recommendations-page.png)
 
-The Hike Reccomendation page shows hikes that people like to do and reccomend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
-put image here
+The Hike Recommendation page shows hikes that people like to do and recommend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
 
 While it isn't shown, the search function does work and searches by name of the trail and the location.
 
@@ -84,7 +83,7 @@ The Groups page shows all the currently defined Groups from users on the website
 
 ![](./images/groups-page.png)
 
-Users can also create a hiking group when you click on the top left and will be redirected to a form:
+Once users are logged in, they can also create a new group if they would like, especially if they already have some friends in mind and they would like to get new people to join. On the top left, users can click the button and will be and will be redirected to a form:
 
 ![](./images/groups-page-add.png)
 
