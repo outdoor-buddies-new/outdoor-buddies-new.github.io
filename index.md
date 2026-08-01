@@ -1,4 +1,4 @@
-[![CI](https://github.com/YOUR-ORG/YOUR-REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-ORG/YOUR-REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/outdoor-buddies/my-nextjs-application/actions/workflows/ci.yml/badge.svg)](https://github.com/outdoor-buddies/my-nextjs-application/actions/workflows/ci.yml)
 
 # Outdoor Buddies
 
@@ -76,24 +76,11 @@ Users can also create a hiking group when you click on the top left and will be 
 
 ![](./images/groups-page-add.png)
 
-### Admin page
-
-![](./images/admin-page.png)
-
-While undecided, we have kept the admin page in case of reference and for proof of sign in protection working properly. However, we are facing issues with signing in on the deployed vercel site, an issue that we aim to address in M2
-
 ### Home page
 
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 
 work in progress
-
-### Request to join Group
-
-Once you are logged in, you can request to join different Groups:  
-
-work in progress
-
 
 ## Development History
 
@@ -103,7 +90,7 @@ The goal of [Milestone 1](https://github.com/orgs/outdoor-buddies/projects/1) wa
 
 ### Milestone 2: Data model development
 
-The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) is to implement the data model: for hikes and for users/groups on the site. We will also be fixing certain login issues and having a consistent style across the whole project.
+The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) was to implement the data model: for hikes and for users/groups on the site. We also be fixed certain login issues and added basic features such as searching, adding, editing, etc.
 
 ## Milestone 3: Final touches
 
