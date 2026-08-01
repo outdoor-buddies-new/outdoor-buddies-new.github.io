@@ -7,7 +7,19 @@
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
+  * [Landing Page](#landing-page)
+  * [Sign in and sign up](#sign-in-and-sign-up)
+  * [Index pages](#index-pages-announcements-hike-recommendation-groups-profiles)
+  * [Home page](#home-page)
+* [Developer Guide](#developer-guide)
+  * [Prerequisites](#prerequisites)
+  * [Clone the repository](#clone-the-repository)
+  * [Database Setup](#database-setup)
+  * [Running the Application](#running-the-application)
 * [Development History](#development-history)
+  * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Milestone 2: Data model development](#milestone-2-data-model-development)
+  * [Milestone 3: Final touches](#milestone-3-final-touches)
 * [Team](#team)
 
 ## Overview
@@ -82,6 +94,57 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 work in progress
 
+## Developer Guide
+
+If you are interested in running Outdoor Buddies locally, follow the instructions below.
+
+### Prerequisites
+
+Before running the application, make sure you have the following installed:
+
+- Node.js
+- npm
+- PostgreSQL
+
+### Clone the repository
+
+Clone the application repository locally and navigate into the project directory and install required dependencies.
+```
+npm install
+```
+
+### Database Setup
+Create a PostgreSQL database for the application.
+```
+createdb name-of-db
+```
+
+Copy `sample.env` and rename the copy to `.env` and update the `DATABASE_URL` to match your local PostgreSQL setup
+
+Run database migrations using
+```
+npx prisma migrate dev
+```
+
+Generate the Prisma client:
+```
+npx prisma generate
+```
+
+Seed the database with default users and data:
+```
+npm run seed
+```
+
+### Running the Application
+
+Start the development server by running:
+```
+npm run dev
+```
+
+If configured correct, the app will be available to view at http://localhost:3000
+
 ## Development History
 
 ### Milestone 1: Mockup development
@@ -94,8 +157,7 @@ The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) wa
 
 ## Milestone 3: Final touches
 
-The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
-
+The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app, add more entries into our tables, and maybe adjust some of the styles, including fonts, colors etc.
 
 ## Team
 
