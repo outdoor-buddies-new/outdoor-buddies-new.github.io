@@ -33,7 +33,7 @@ The goal is to make outdoor activities more accessible, social, and safer by hel
 ## Deployment
 
 Our application is actively being developed and is deployed via Vercel.  
-[View Outdoor Buddies Live](https://my-nextjs-application-7fdlja4pv-outdoor-buddies.vercel.app/)
+[View Outdoor Buddies Live](https://my-nextjs-application-4fuxsfax7-outdoor-buddies.vercel.app/)
 
 ## User Guide
 
