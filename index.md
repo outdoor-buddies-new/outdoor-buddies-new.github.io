@@ -33,7 +33,7 @@ The goal is to make outdoor activities more accessible, social, and safer by hel
 ## Deployment
 
 Our application is actively being developed and is deployed via Vercel.  
-[View Outdoor Buddies Live](https://my-nextjs-application-4fuxsfax7-outdoor-buddies.vercel.app/)
+[View Outdoor Buddies Live](https://my-nextjs-application-ebma2c152-outdoor-buddies.vercel.app/)
 
 ## User Guide
 
@@ -41,7 +41,7 @@ This section provides a walkthrough of the Outdoor Buddies user interface and it
 
 ### Landing Page
 
-The landing page is presented to users when they visit the top-level URL to the site. This allows users to see what the mission statement of the website is to determine if they would like to utilize it. 
+The landing page is presented to users when they visit the top-level URL to the site. This allows users to see what the mission statement of the website is to determine if they would like to utilize its services. There are also user reviews below to see if it is something they might be interested in. (in progress)
 
 ![](./images/landing-page.png)
 
