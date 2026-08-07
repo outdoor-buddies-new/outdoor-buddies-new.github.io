@@ -43,49 +43,90 @@ This section provides a walkthrough of the Outdoor Buddies user interface and it
 
 The landing page is presented to users when they visit the top-level URL to the site. This allows users to see what the mission statement of the website is to determine if they would like to utilize its services. There are also user reviews below to see if it is something they might be interested in. (in progress)
 
-![](./images/landing-page.png)
+![](./images-temp/landing-page-1.png)
+![](./images-temp/landing-page-2.png)
 
 ### Sign in and sign up
 
-Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
+Scroll down and click on the "Sign In" Button or click on the "Login" button in the upper right corner of the Navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](./images/signin-page.png)
+![](./images-temp/sign-in.png)
 
-Alternatively, you can select "Sign up" to go to the following page and register as a new user:
+Alternatively, you can select "Sign up" in the same locations as "Sign In" to go to the following page and register as a new user:
 
-![](./images/signup-page.png)
+![](./images-temp/sign-up.png)
 
 ### Index pages (Announcements, Hike Recommendation, Groups, Profiles)
 
 Outdoor Buddies provides four public pages that help users navigate the site in different ways. Users are encouraged to log in to their profiles when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
 
-![](./images/profiles-page.png)
+![](./images-temp/profiles.png)
 
 The Profiles page shows all the current defined Profiles and their associated Groups:
 
-![](./images/announcements-page.png)
+![](./images-temp/announcements-events-page.png)
 
 The announcements page offers the admins a way to interact with users through events and announcements. When a developer is signed in, they have access to a button to create an announcement that will redirect to page where they can input info to share with users whether it be events, updates or more.
 
+![](./images-temp/event-details.png)
+
+Users can find out more details through Event Details page.
+
 An admin/developer can add and edit existing announcements in the announcements page
 
-![](./images/announcements-page-add.png)
+![](./images-temp/add-event-admin.png)
 
-![](./images/announcements-page-edit.png)
+![](./images-temp/edit-event-admin.png)
 
-![](images/hiking-recommendations-page.png)
+![](images-temp/hike-list.png)
 
 The Hike Recommendation page shows hikes that people like to do and recommend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
 
-While it isn't shown, the search function does work and searches by name of the trail and the location.
+While it isn't shown, the search function does work and searches by name of the trail and the location. (maybe we'll show can think later)
 
-The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description:
+![](images-temp/hike-details.png)
 
-![](./images/groups-page.png)
+If Users are interested, they can also click on "View Details" and can see more information about the various hikes that are listed
+
+![](./images-temp/groups.png)
+
+The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description.
+
+While it isn't shown, the search function does work and searches by name of the group. (maybe we'll show can think later)
+
+![](./images-temp/group=details.png)
+
+If Users would like to learn more information about the group, they can click on "View Details" and can see more information about the groups
+
+![](./images-temp/add-group.png)
 
 Once users are logged in, they can also create a new group if they would like, especially if they already have some friends in mind and they would like to get new people to join. On the top left, users can click the button and will be and will be redirected to a form:
 
-![](./images/groups-page-add.png)
+![](./images-temp/edit-group.png)
+
+Users can also edit the group information
+
+Users can also request to join (need to implement this feature though)
+
+![](./images-temp/profiles.png)
+
+The Profiles page shows all the currently defined Profiles on the website with their associated interests and descriptions.
+
+While it isn't shown, the search function does work and searches by name of the profile and other words in the description or summary. (maybe we'll show can think later)
+
+![](./images-temp/profiles=details.png)
+
+If Users would like to learn more information about different Profiles (other Users), they can click on "View Details" and can see more information about the profiles
+
+![](./images-temp/add-profile.png)
+
+Once users are logged in, they can also create a new profile if they would like, especially if they already have some friends in mind and they would like to get new people to join. On the top left, users can click the button and will be and will be redirected to a form:
+
+![](./images-temp/edit-profile.png)
+
+Users can also edit their profile information
+
+Once logged in a User can select their username in the top right of the Navbar to view their profiles as well (still need to implement is wip)
 
 ### Home page
 
