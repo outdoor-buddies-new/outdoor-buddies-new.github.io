@@ -10,7 +10,6 @@
   * [Landing Page](#landing-page)
   * [Sign in and sign up](#sign-in-and-sign-up)
   * [Index pages](#index-pages-announcements-hike-recommendation-groups-profiles)
-  * [Home page](#home-page)
 * [Developer Guide](#developer-guide)
   * [Prerequisites](#prerequisites)
   * [Clone the repository](#clone-the-repository)
@@ -56,6 +55,8 @@ Alternatively, you can select "Sign up" in the same locations as "Sign In" to go
 
 ![](./images-temp/sign-up.png)
 
+Upon sign in/sign up, you will be redirected to the Announcements page of the website.
+
 ### Index pages (Announcements, Hike Recommendation, Groups, Profiles)
 
 Outdoor Buddies provides four public pages that help users navigate the site in different ways. Users are encouraged to log in to their profiles when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
@@ -66,17 +67,19 @@ The Profiles page shows all the current defined Profiles and their associated Gr
 
 ![](./images-temp/announcements-events-page.png)
 
-The announcements page offers the admins a way to interact with users through events and announcements. When a developer is signed in, they have access to a button to create an announcement that will redirect to page where they can input info to share with users whether it be events, updates or more.
+The announcements page offers the admins a way to interact with users through events and announcements. When a developer is signed in, they have access to a button to create an announcement that will redirect to a form that upon submission, shares with users across the site whether it be events, updates or more.
 
 ![](./images-temp/event-details.png)
 
 Users can find out more details through Event Details page.
 
-An admin/developer can add and edit existing announcements in the announcements page
+As mentioned, an admin/developer can add announcements but also edit existing announcements in the announcements page
 
 ![](./images-temp/add-event-admin.png)
 
 ![](./images-temp/edit-event-admin.png)
+
+If an admin feels an announcement is pointless or the date has passed, they can simply press the red trashcan icon on the associated event and delete it.
 
 ![](images-temp/hike-list.png)
 
@@ -86,7 +89,7 @@ While it isn't shown, the search function does work and searches by name of the 
 
 ![](images-temp/hike-details.png)
 
-If Users are interested, they can also click on "View Details" and can see more information about the various hikes that are listed
+Users can view more information about a hike including what to bring, what to look out for and more.
 
 ![](./images-temp/groups.png)
 
@@ -128,30 +131,29 @@ Users can also edit their profile information
 
 Once logged in a User can select their username in the top right of the Navbar to view their profiles as well (still need to implement is wip)
 
-### Home page
-
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
-
-work in progress
-
 ## Developer Guide
 
-If you are interested in running Outdoor Buddies locally, follow the instructions below.
+If you are interested in running Outdoor Buddies locally, please follow the instructions below.
 
 ### Prerequisites
 
 Before running the application, make sure you have the following installed:
 
-- Node.js
-- npm
-- PostgreSQL
+- [Github Desktop](https://desktop.github.com/download/)
+- [Node.js](https://nodejs.org/en/download) (Comes with npm)
+- [PostgreSQL](https://www.postgresql.org/download/)
+
+Optional:
+- [Visual Studio Code](https://code.visualstudio.com/) — Recommended code editor. Other editors or IDEs may be used.
 
 ### Clone the repository
 
-Clone the application repository locally and navigate into the project directory and install required dependencies.
+Clone the application repository locally using Github Desktop and navigate into the project directory via your editor or IDE and install required dependencies.
 ```
 npm install
 ```
+
+You will be able to view all of the files associated with the project and edit features or even implement your own!
 
 ### Database Setup
 Create a PostgreSQL database for the application.
@@ -173,7 +175,7 @@ npx prisma generate
 
 Seed the database with default users and data:
 ```
-npm run seed
+npx prisma db seed
 ```
 
 ### Running the Application
@@ -183,7 +185,7 @@ Start the development server by running:
 npm run dev
 ```
 
-If configured correct, the app will be available to view at http://localhost:3000
+If properly configured, the app will be available to view at http://localhost:3000
 
 ## Development History
 
@@ -197,7 +199,7 @@ The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) wa
 
 ## Milestone 3: Final touches
 
-The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app, add more entries into our tables, and maybe adjust some of the styles, including fonts, colors etc.
+The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc.
 
 ## Team
 
