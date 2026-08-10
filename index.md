@@ -9,7 +9,11 @@
 * [User Guide](#user-guide)
   * [Landing Page](#landing-page)
   * [Sign in and sign up](#sign-in-and-sign-up)
-  * [Index pages](#index-pages-announcements-hike-recommendation-groups-profiles)
+  * [Index pages](#index-pages)
+    * [Announcements and Events](#announcements-and-events)
+    * [Hikes](#hikes)
+    * [Groups](#groups)
+    * [Profiles](#profiles)
 * [Developer Guide](#developer-guide)
   * [Prerequisites](#prerequisites)
   * [Clone the repository](#clone-the-repository)
@@ -202,7 +206,6 @@ Users can click the 'Edit Profile' Button and they will be redirected to the for
 
 ![](./images-temp/edit-profile-form-1.png)
 ![](./images-temp/edit-profile-form-2.png)
-
 ___
 
 ## Developer Guide
