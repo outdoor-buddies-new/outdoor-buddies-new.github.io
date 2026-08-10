@@ -210,7 +210,7 @@ ___
 
 ## Developer Guide
 
-If you are interested in running Outdoor Buddies locally, please follow the instructions below.
+For new developers that are joining the project and need to run Outdoor Buddies locally, this guide provides an in-depth explanation on how to download, install, and run Outdoor Buddies.
 
 ### Prerequisites
 
@@ -221,7 +221,7 @@ Before running the application, make sure you have the following installed:
 - [Latest Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Code Editor
 
-### Optional
+#### Optional
 
 These are reccomended to make navigation and seeing components easier
 
@@ -231,7 +231,7 @@ These are reccomended to make navigation and seeing components easier
 
 ### Clone the repository
 
-Clone the application repository locally using Github Desktop and navigate into the project directory via your editor or IDE and install required dependencies.
+First, clone the [Outdoor Buddies](https://github.com/outdoor-buddies/my-nextjs-application) repository locally using Github Desktop and navigate into the project directory via your editor or IDE and install required dependencies.
 
 ### Install Dependencies
 
@@ -243,7 +243,7 @@ You will be able to view all of the files associated with the project and edit f
 
 ### Environment Setup
 
-This project requires a .env file for...
+This project requires a .env file (I'm not sure )
 
 NextAuth configuration
 Database connection (PostgreSQL)
@@ -256,7 +256,7 @@ Create a `.env` file ...
 ### Database Setup
 Create a PostgreSQL database for the application.
 ```
-createdb name-of-db
+createdb outside-buddies
 ```
 
 Copy `sample.env` and rename the copy to `.env` and update the `DATABASE_URL` to match your local PostgreSQL setup
@@ -271,6 +271,11 @@ Generate the Prisma client:
 npx prisma generate
 ```
 
+If you modify the Prisma schema or want to push the schema to the database:
+```
+npx prisma db push
+```
+
 Seed the database with default users and data:
 ```
 npx prisma db seed
@@ -278,13 +283,75 @@ npx prisma db seed
 
 ### Running the Application
 
-Start the development server by running:
+Start the development server by running the command:
 ```
 npm run dev
 ```
 
 If properly configured, the app will be available to view at http://localhost:3000
+(You can put this link into a browser, or if using VSCode, clicking the 'open link' when hovering over the link)
 
+### Testing (Optional)
+
+### Playwright
+
+Testing is done with Playwright. You can run the browser tests with the following steps.
+
+Install Playwright:
+```
+npx playwright install
+```
+
+Run Playwright Tests:
+```
+npx playwright test
+```
+
+#### ESLint (Quality Assurance)
+
+Run ESLint for Linting issues
+```
+npm run lint
+```
+
+### Directory Structure
+
+A brief overview of the repository layout:
+
+```
+.github/               # GitHub issue templates and CI/CD workflows
+checklists/            # Feature and task checklists
+config/                # Static config files (e.g., event categories)
+doc/                   # Documentation assets
+prisma/                # Prisma schema and migrations
+├── seedData/          # seed scripts
+public/                # Static assets (images, icons)
+src/
+├── app/               # Next.js route handlers and pages
+│   ├── admin/             # Admin dashboard and event management
+│   ├── api/               # API routes (auth, categories, events, user)
+│   ├── auth/              # Sign in, sign up, password management
+│   ├── calendar/          # Calendar view by year/month
+│   ├── contact/           # Contact/Help page
+│   ├── events/            # Event detail and edit pages
+│   ├── myevents/          # Organizer’s event list and add page
+│   ├── organizer/         # Organizer dashboard
+│   ├── search/            # Event search and filters
+│   ├── userhome/          # Logged-in user homepage
+│   ├── not-authorized/    # Role-based access fallback
+│   └── page.tsx           # Landing page
+├── components/        # Reusable UI components (forms, buttons, cards)
+├── lib/               # Auth options, DB actions, validation schemas
+├── types/             # TypeScript declarations
+├── tests/             # Playwright test files and sessions
+.env.local             # Local environment variables
+README.md              # Project documentation
+package.json           # NPM scripts and dependencies
+```
+
+### Modifying the System
+
+Developers and contributors should ensure that all CI checks pass before merging pull requests.
 ___
 
 ## Community Feedback
