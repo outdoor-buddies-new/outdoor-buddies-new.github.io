@@ -1,10 +1,13 @@
 title: Outdoor Buddies
-description: Find a Buddy for Hiking, Running, Walking ... <make better>
+description: Find a Buddy for Hiking, Running, Walking; The Great Outdoors!
 google_analytics:
 show_downloads: false
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
   repository_url: https://github.com/outdoor-buddies
+deployment:
+  is_project_page: true
+  repository_url: https://my-nextjs-application-e8qynatj4-outdoor-buddies.vercel.app/
 gems:
   - jekyll-mentions

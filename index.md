@@ -5,6 +5,7 @@
 ## Table of contents
 
 * [Overview](#overview)
+* [Team](#team)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
   * [Landing Page](#landing-page)
@@ -21,13 +22,25 @@
   * [Milestone 3: Final touches](#milestone-3-final-touches)
 * [Team](#team)
 
-## Overview
+---
 
-### Project Goals
+## Overview
 
 Outdoor Buddies aims to help students find others interested in hiking, running, and walking around Oahu. The application will allow users to create profiles, discover compatible groups and activities, join outdoor events, and share information about local outdoor locations.
 
 The goal is to make outdoor activities more accessible, social, and safer by helping students connect with others who share similar interests and preferences.
+
+### The Problem
+
+ee
+
+### The Solution
+
+ee
+
+---
+
+###
 
 ## Deployment
 
