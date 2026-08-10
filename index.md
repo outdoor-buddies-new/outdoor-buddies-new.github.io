@@ -104,7 +104,7 @@ An admin can click on the 'Create Announcement' Button to create a new Event or 
 
 ![](./images/add-event-form.png)
 
-An admin can click on the 'Edit' Button to change the details of the Event or Announcement and they will be redirected to the form below. Editing applies to existing and future Announcements and Events. If an admin notices a mistake on an announcement or the date has passed, They can also click on the 'TrashCan Icon' Button to Delete the specific Event or Announcement.
+An admin can click on the 'Edit' Button to change the details of the Event or Announcement and they will be redirected to the form below. Editing applies to existing and future Announcements and Events. If an admin notices a mistake on an announcement or the date has passed. They can also click on the 'TrashCan Icon' Button to Delete the specific Event or Announcement.
 
 ![](./images/edit-event-form.png)
 
@@ -132,25 +132,30 @@ An admin can click on the 'Edit' Button to change the details of the Hike and th
 
 #### Groups
 
-![](./images-temp/groups.png)
+The Groups page shows all the currently defined Groups from Users on the website with their associated image, number of members, and description. If applicable, it will also display the group's last event location as well as the date when it took place. While it isn't shown, the search function does work and searches by name and description of the group. There are also options to filter by commitment level.
 
-The Groups page shows all the currently defined Groups from users on the website with their associated Profile, Interests, and Description.
+![](./images/groups-page.png)
 
-While it isn't shown, the search function does work and searches by name of the group. (maybe we'll show can think later)
+Once users are logged in, they can click on the 'Add a Group' Button to create a new group. This is especially helpful if they already have some friends in mind and they would like to get new people to join. Users can also create multiple groups. They will be redirected to the page below.
 
-![](./images-temp/group=details.png)
+![](./images/add-group-form-empty.png)
 
-If Users would like to learn more information about the group, they can click on "View Details" and can see more information about the groups
+Once it is filled out, the page should look something like this
 
-![](./images-temp/add-group.png)
+![](./images/add-group-form-full-1.png)
+![](./images/add-group-form-full-2.png)
 
-Once users are logged in, they can also create a new group if they would like, especially if they already have some friends in mind and they would like to get new people to join. On the top left, users can click the button and will be and will be redirected to a form:
+Users can click on the 'View Details' Button to get more information on what the group is about: how many members are there, if there's a cap to how many members they will accept, and a description meant for the group to tell the world what it's about.
 
-![](./images-temp/edit-group.png)
+![](./images/group-details.png)
 
-Users can also edit the group information
+ If the User created the group themselves, then the details page will look like it does below.
+ 
+![](./images/group-details-other.png)
 
-Users can also request to join (need to implement this feature though)
+Users can click the 'Edit Group' Button and they will be redirected to the form below that allows for editing the details of the group. They can also click on the 'TrashCan Icon' Button to Delete the specific Group.
+
+![](./images/edit-group-form.png)
 
 #### Profiles
 
