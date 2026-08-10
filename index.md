@@ -82,9 +82,9 @@ Upon sign in/sign up, you will be redirected to the Announcements page of the we
 
 ![](./images/announcements-events-page.png)
 
-### Index pages (Groups, Profiles)
+### Index pages
 
-Outdoor Buddies provides four public pages that help users navigate the site in different ways.
+Outdoor Buddies provides four public pages that help users navigate the site in different ways. People are encouraged to sign in or sign up when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
 
 #### Announcements and Events
 
@@ -104,25 +104,31 @@ An admin can click on the 'Create Announcement' Button to create a new Event or 
 
 ![](./images/add-event-form.png)
 
-An admin can click on the 'Edit' Button to change the details of the Event or Announcement and they will be redirected to the form below. Editing applies to existing and future Announcements and Events. If an admin notices a mistake on an announcement or the date has passed, They can also click on the 'TrashCan Icon' Button to Delete the specific Event or Announcement
+An admin can click on the 'Edit' Button to change the details of the Event or Announcement and they will be redirected to the form below. Editing applies to existing and future Announcements and Events. If an admin notices a mistake on an announcement or the date has passed, They can also click on the 'TrashCan Icon' Button to Delete the specific Event or Announcement.
 
 ![](./images/edit-event-form.png)
 
-#### List of Hikes
+#### Hikes
 
-The Hikes page offers users who are new to Hawaii a way to get more information on the different hikes that people can do on Oahu. 
+The Hikes page shows hikes that people like to do and recommend for newcomers to Hawaii. Users who are new to Hawaii a way to get more information on the different hikes that people can do on Oahu. This is to get a feel for if a certain hike is right for them. While it isn't shown, the search function does work and searches by name, location, and description of the trail. There are also options to filter by difficulty and distance (in miles).
 
-Users are encouraged to log in to their profiles when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
+![](images/hike-list-page.png) 
 
-![](images-temp/hike-list.png)
+Users can click on the name of the hike in blue and that will take them to a page with a text-blurb that gives more expanded details about the hike. Users can view more information about a hike including what to bring, what to look out for and more.
 
-The Hike Recommendation page shows hikes that people like to do and recommend for newcomers to Hawaii. This is to get a feel for if a certain hike is right for them:  
+![](images/hike-details-page.png)
 
-While it isn't shown, the search function does work and searches by name of the trail and the location. (maybe we'll show can think later)
+When an admin is signed in, this is what the Hikes page will look like. Admins can add and edit different hikes pages.
 
-![](images-temp/hike-details.png)
+![](images/hike-list-page-admin.png)
 
-Users can view more information about a hike including what to bring, what to look out for and more.
+An admin can click on the 'Create a Hike' Button to create a new Hike and they will be redirected to the form below.
+
+![](images/no.png)
+
+An admin can click on the 'Edit' Button to change the details of the Hike and they will be redirected to the form below. Editing applies to existing and future Hikes. They can also click on the 'TrashCan Icon' Button to Delete the Hike (accounting for something like Stairway to Heaven, since people can't hike there anymore).
+
+![](images/edit-hike-form.png)
 
 #### Groups
 
