@@ -38,8 +38,8 @@ People love taking hikes, running, and walking in Hawaii. There are many areas a
 
 The Outdoor Buddies App will allow students to login, create a profile marking certain preferences, view pre-existing groups or create a new one, and join with other students on the many beautiful hiking, running, and walking spots on Oahu. They can message each other within the app, post announcements for group hiking events, and create a community.
 
-___
 
+___
 ## Project
 
 ### Github
@@ -84,7 +84,7 @@ Upon sign in/sign up, you will be redirected to the Announcements page of the we
 
 ### Index pages
 
-Outdoor Buddies provides four public pages that help users navigate the site in different ways. People are encouraged to sign in or sign up when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
+Outdoor Buddies provides four public pages that help users navigate the site in different ways. People are encouraged to sign in or sign up when trying to access these different pages, and if they do sign in they will be able to see what each page has to offer. If a user isn't signed in, they can't access these pages.
 
 #### Announcements and Events
 
@@ -134,9 +134,9 @@ An admin can click on the 'Edit' Button to change the details of the Hike and th
 
 The Groups page shows all the currently defined Groups from Users on the website with their associated image, number of members, and description. If applicable, it will also display the group's last event location as well as the date when it took place. While it isn't shown, the search function does work and searches by name and description of the group. There are also options to filter by commitment level.
 
-![](./images/groups-page.png)
+![](./images/group-page.png)
 
-Once users are logged in, they can click on the 'Add a Group' Button to create a new group. This is especially helpful if they already have some friends in mind and they would like to get new people to join. Users can also create multiple groups. They will be redirected to the page below.
+Users can click on the 'Add a Group' Button to create a new group. This is especially helpful if they already have some friends in mind and they would like to get new people to join. Users can also create multiple groups. They will be redirected to the page below.
 
 ![](./images/add-group-form-empty.png)
 
@@ -159,18 +159,24 @@ Users can click the 'Edit Group' Button and they will be redirected to the form 
 
 #### Profiles
 
-The Profiles page shows all the current defined Profiles and their associated Groups:
+The Profiles page shows all the currently defined Profiles from Users on the website with their associated image, group name if applicable, and description. Only one profile per User. While it isn't shown, the search function does work and searches by name, status, groupname, and description of the profile.
 
 ![](./images/profile-page.png)
 
+In the navbar, under the user email, Users can click on the 'View Profile' Button to create a new profile. This redirects them to the form below.
 
-![](./images-temp/profiles.png)
+![](./images/add-profile-form-empty.png)
+
+Once it is filled out, the page should look something like this
+
+![](./images/add-profile-form-full-1.png)
+![](./images/add-profile-form-full-2.png)
 
 The Profiles page shows all the currently defined Profiles on the website with their associated interests and descriptions.
 
 While it isn't shown, the search function does work and searches by name of the profile and other words in the description or summary. (maybe we'll show can think later)
 
-![](./images-temp/profiles=details.png)
+![](./images-temp/profiles-details.png)
 
 If Users would like to learn more information about different Profiles (other Users), they can click on "View Details" and can see more information about the profiles
 
