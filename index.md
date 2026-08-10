@@ -124,7 +124,7 @@ When an admin is signed in, this is what the Hikes page will look like. Admins c
 
 An admin can click on the 'Create a Hike' Button to create a new Hike and they will be redirected to the form below.
 
-![](images/no.png)
+![](images/add-hike-form.png)
 
 An admin can click on the 'Edit' Button to change the details of the Hike and they will be redirected to the form below. Editing applies to existing and future Hikes. They can also click on the 'TrashCan Icon' Button to Delete the Hike (accounting for something like Stairway to Heaven, since people can't hike there anymore).
 
