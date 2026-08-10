@@ -15,6 +15,7 @@
   * [Clone the repository](#clone-the-repository)
   * [Database Setup](#database-setup)
   * [Running the Application](#running-the-application)
+* [Community Feedback](#community-feedback)
 * [Development History](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: Data model development](#milestone-2-data-model-development)
@@ -232,21 +233,29 @@ npm run dev
 
 If properly configured, the app will be available to view at http://localhost:3000
 
+___
+
+## Community Feedback
+___
+
 ## Development History
 
 ### Milestone 1: Mockup development
 
-The goal of [Milestone 1](https://github.com/orgs/outdoor-buddies/projects/1) was to create mockups of each of the pages for our Outdoor Buddies Website
+The goal of [Milestone 1](https://github.com/orgs/outdoor-buddies/projects/1) was to create mockups of each of the pages for our Outdoor Buddies Website. Specifically Announcements(/Events), Hikes, Groups, and Profiles.
 
 ### Milestone 2: Data model development
 
-The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) was to implement the data model: for hikes and for users/groups on the site. We also be fixed certain login issues and added basic features such as searching, adding, editing, etc.
+The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) was to implement the data model: for Announcements(/Events), Hikes, and for Groups and Profiles (especially connecting them to a specific User) on the site. We also fixed certain login issues, transferring to the vercel deployment database, and added basic features, such as searching, adding, editing, and deleting functions. Users can add, edit, and delete Groups and Profiles. Admins can add, edit, and delete Announcements(/Events) and Hikes.
 
 ## Milestone 3: Final touches
 
-The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc.
+The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc. We added in a dynamic search that can filter based on certain components for both Hikes and Groups. Groups also now has a Forum Page where users can post asking a group some questions or to join.
 
 ## Team
 
 OutdoorBuddies is designed, implemented, and maintained by [Brycen Kano](https://brycenk05.github.io/) and [Kelly Masaki](https://kellym12.github.io/Professional-Portfolio/).  
+
 Our [Team Contract](https://docs.google.com/document/d/11j764LAw7YHbRscZZDggGGVZIzsIFAGyGOxQO0eoB1g/edit?tab=t.0) is viewable here.
+Our [Effort Estimation Log](https://docs.google.com/spreadsheets/d/1Tl9o4xFjIVCQJR4_xxAe4uxyy4snGOeN7FuaIdNy51c/edit?gid=1863864839#gid=1863864839) is viewable here.
+Our [Feedback Form](https://docs.google.com/forms/d/1s5giYVxxcc7z6MaEk2tQkjkACl2sGNaz3vUJycFOI5g/edit) for if you would like to give us any feedback.
