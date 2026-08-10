@@ -25,9 +25,7 @@
   * [Milestone 2: Data model development](#milestone-2-data-model-development)
   * [Milestone 3: Final touches](#milestone-3-final-touches)
 * [Team](#team)
-
 ___
-
 ## Overview
 
 Outdoor Buddies aims to help students find others interested in hiking, running, and walking around Oahu. The application will allow users to create profiles, discover compatible groups and activities, join outdoor events, and share information about local outdoor locations.
@@ -41,8 +39,6 @@ People love taking hikes, running, and walking in Hawaii. There are many areas a
 ### The Solution
 
 The Outdoor Buddies App will allow students to login, create a profile marking certain preferences, view pre-existing groups or create a new one, and join with other students on the many beautiful hiking, running, and walking spots on Oahu. They can message each other within the app, post announcements for group hiking events, and create a community.
-
-
 ___
 ## Project
 
@@ -206,8 +202,8 @@ Users can click the 'Edit Profile' Button and they will be redirected to the for
 
 ![](./images/edit-profile-form-1.png)
 ![](./images/edit-profile-form-2.png)
-___
 
+___
 ## Developer Guide
 
 For new developers that are joining the project and need to run Outdoor Buddies locally, this guide provides an in-depth explanation on how to download, install, and run Outdoor Buddies.
