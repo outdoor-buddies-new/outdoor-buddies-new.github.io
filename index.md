@@ -326,24 +326,26 @@ doc/                   # Documentation assets
 prisma/                # Prisma schema and migrations
 ├── seedData/          # seed scripts
 public/                # Static assets (images, icons)
+├── groups/            # Group Picture Images
+├── images/            # Miscellaneous Images
+├── pfps/              # Profile Picture Images
+├── trails/            # Trail Picture Images
 src/
 ├── app/               # Next.js route handlers and pages
-│   ├── admin/             # Admin dashboard and event management
-│   ├── api/               # API routes (auth, categories, events, user)
-│   ├── auth/              # Sign in, sign up, password management
-│   ├── calendar/          # Calendar view by year/month
-│   ├── contact/           # Contact/Help page
-│   ├── events/            # Event detail and edit pages
-│   ├── myevents/          # Organizer’s event list and add page
-│   ├── organizer/         # Organizer dashboard
-│   ├── search/            # Event search and filters
-│   ├── userhome/          # Logged-in user homepage
-│   ├── not-authorized/    # Role-based access fallback
-│   └── page.tsx           # Landing page
-├── components/        # Reusable UI components (forms, buttons, cards)
+│   ├── announcements/          # Announcements and Events
+│   ├── api/auth/[...nextauth]  # API routes (auth, categories, events, user)
+│   ├── auth/                   # Sign in, sign up, sign out
+│   ├── groups/                 # Groups
+│   ├── hikes/                  # Trails
+│   ├── not-authorized/         # Role-based access fallback
+│   ├── profile/                # Profiles
+│   ├── global.css              # Styles
+│   └── page.tsx                # Landing page
+├── components/        # Reusable UI components (forms, buttons, cards, navbar, footer, search)
 ├── lib/               # Auth options, DB actions, validation schemas
 ├── types/             # TypeScript declarations
 ├── tests/             # Playwright test files and sessions
+.env                   # Environment variables to easier transition to Vercel Database
 .env.local             # Local environment variables
 README.md              # Project documentation
 package.json           # NPM scripts and dependencies
@@ -352,13 +354,24 @@ package.json           # NPM scripts and dependencies
 ### Modifying the System
 
 Developers and contributors should ensure that all CI checks pass before merging pull requests.
+
+#### Contribution Workflow
+
+Typical Development Flow
+- Create an Issue Branch
+- Implement Changes
+- Run `npm run lint` and `npx playwright test`
+- Commit and push your branch
+- Open a pull request
+- Ensure CI passes
+- Request review from team members
 ___
 
 ## Community Feedback
 
 We asked 5 members of the UH Community to try to test the Outside Buddies web application on both the user and the dev end. For each community member, we hav split their answer into the categories: 'General Impressions', 'Things that I liked', 'Things that could be improved'
 
-
+s
 ___
 
 ## Development History
@@ -374,6 +387,7 @@ The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) wa
 ## Milestone 3: Final touches
 
 The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc. We added in a dynamic search that can filter based on certain components for both Hikes and Groups. Groups also now has a Forum Page where users can post asking a group some questions or to request to join.
+___
 
 ## Team
 
