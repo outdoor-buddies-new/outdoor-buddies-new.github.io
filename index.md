@@ -196,7 +196,7 @@ Users can click on the 'View Details' Button to get more information on what ano
  If the User has already created the profile themselves, then the details page will look like it does below.
  
 ![](./images/profile-details-page1.png)
-![](./images/profile-details-page1.png)
+![](./images/profile-details-page2.png)
 
 Users can click the 'Edit Profile' Button and they will be redirected to the form below that allows for editing the details of the profile. They can also click on the 'TrashCan Icon' Button to Delete the Profile. Once the profile is deleted, 'View Profile' will again redirect to the same form used to create a profile.
 
