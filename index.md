@@ -52,7 +52,7 @@ View the Outside Buddies Project Repository [here](https://github.com/outdoor-bu
 
 ### Deployment
 
-Our application is actively being developed and is deployed via Vercel.  
+To make Outdoor Buddies easily accessible to anyone, our application is actively being developed and is deployed via Vercel.  
 [View Outdoor Buddies Live](https://my-nextjs-application-nmuczljz2-outdoor-buddies.vercel.app/)
 
 ___
@@ -65,8 +65,12 @@ This section provides a walkthrough of the Outdoor Buddies user interface and it
 
 The landing page is presented to users when they visit the top-level URL to the site. This allows users to see what the mission statement of the website is to determine if they would like to utilize its services. There are also user reviews below to see if it is something they might be interested in. (in progress)
 
-![](./images-temp/landing-page-1.png)
-![](./images-temp/landing-page-2.png)
+<p align="center">
+  <img src="images/mockup/landing_page-1.png" alt="Landing Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/mockup/landing_page-2.png" alt="Landing Page" width="100%">
+</p>
 
 ### Sign in and sign up
 
@@ -236,6 +240,10 @@ If properly configured, the app will be available to view at http://localhost:30
 ___
 
 ## Community Feedback
+
+We asked 5 members of the UH Community to try to test the Outside Buddies web application on both the user and the dev end. For each community member, we hav split their answer into the categories: 'General Impressions', 'Things that I liked', 'Things that could be improved'
+
+
 ___
 
 ## Development History
@@ -250,12 +258,14 @@ The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) wa
 
 ## Milestone 3: Final touches
 
-The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc. We added in a dynamic search that can filter based on certain components for both Hikes and Groups. Groups also now has a Forum Page where users can post asking a group some questions or to join.
+The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc. We added in a dynamic search that can filter based on certain components for both Hikes and Groups. Groups also now has a Forum Page where users can post asking a group some questions or to request to join.
 
 ## Team
 
 OutdoorBuddies is designed, implemented, and maintained by [Brycen Kano](https://brycenk05.github.io/) and [Kelly Masaki](https://kellym12.github.io/Professional-Portfolio/).  
 
 Our [Team Contract](https://docs.google.com/document/d/11j764LAw7YHbRscZZDggGGVZIzsIFAGyGOxQO0eoB1g/edit?tab=t.0) is viewable here.
-Our [Effort Estimation Log](https://docs.google.com/spreadsheets/d/1Tl9o4xFjIVCQJR4_xxAe4uxyy4snGOeN7FuaIdNy51c/edit?gid=1863864839#gid=1863864839) is viewable here.
+
+Our [Effort Estimation Log](https://docs.google.com/spreadsheets/d/1eeu1O1KRPOSeJ9_-fLJdqsYPwT55wFt2rFn6RpRWpBE/edit?gid=0#gid=0) is viewable here.
+
 Our [Feedback Form](https://docs.google.com/forms/d/1s5giYVxxcc7z6MaEk2tQkjkACl2sGNaz3vUJycFOI5g/edit) for if you would like to give us any feedback.
