@@ -366,13 +366,29 @@ Typical Development Flow
 ___
 ## Community Feedback
 
-We asked 5 members of the UH Community to try to test the Outside Buddies web application on both the user and the dev end. For each community member, we hav split their answer into the categories: 'General Impressions', 'Things that I liked', 'Things that could be improved'
+We asked 5 members of the UH Community to try to test the Outside Buddies web application on both the user and the dev end. For each community member, we hav split their answer into the categories: 'Things that I liked', 'Things that could be improved'
 
-### UH Community Member 1: ()
+### UH Community Member 1: (Civil Engineering Major, very little computer experience)
 
-**General Impressions:**
+**Things that I liked:**
 
-S
+I liked the style of the website; I also think that the functions make sense for what the app is meant to do.
+
+**Things that could be improved:**
+
+A feature you could consider implementing in the future is a way to see nearby users based on location? That way if someone gets lost or separated from the group, hopefully someone would be able to find them or the person that got lost would be able to find their way back.
+
+### UH Community Member 2: (Computer Science Major, took ICS 314 before)
+
+**Things that I liked:**
+
+I liked the colors and general theme of the website. I think it's interesting and unique.
+
+**Things that could be improved:**
+
+A feature that you could consider implementing in the future is allowing users to attach their different social medias (like Instagram, TikTok, Discord, etc.) to their Profile. That way, other users would have the option to communicate on different platforms, where it could be more convinient, especially if it's a large Group.
+
+### UH Community Member 3: (Mathematics Major, took ICS 314 before)
 
 **Things that I liked:**
 
@@ -382,11 +398,7 @@ S
 
 S
 
-### UH Community Member 2: ()
-
-**General Impressions:**
-
-S
+### UH Community Member 4: (Mathematics Major, some computer experience)
 
 **Things that I liked:**
 
@@ -396,39 +408,7 @@ S
 
 S
 
-### UH Community Member 3: ()
-
-**General Impressions:**
-
-S
-
-**Things that I liked:**
-
-S
-
-**Things that could be improved:**
-
-S
-
-### UH Community Member 4: ()
-
-**General Impressions:**
-
-S
-
-**Things that I liked:**
-
-S
-
-**Things that could be improved:**
-
-S
-
-### UH Community Member 5: ()
-
-**General Impressions:**
-
-S
+### UH Community Member 5: (Mathematics Major, little computer experience)
 
 **Things that I liked:**
 
