@@ -362,15 +362,13 @@ Typical Development Flow
 * Open a pull request
 * Ensure CI passes
 * Request review from team members
-___
 
+___
 ## Community Feedback
 
 We asked 5 members of the UH Community to try to test the Outside Buddies web application on both the user and the dev end. For each community member, we hav split their answer into the categories: 'General Impressions', 'Things that I liked', 'Things that could be improved'
 
-s
 ___
-
 ## Development History
 
 ### Milestone 1: Mockup development
