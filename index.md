@@ -25,6 +25,7 @@
   * [Milestone 2: Data model development](#milestone-2-data-model-development)
   * [Milestone 3: Final touches](#milestone-3-final-touches)
 * [Team](#team)
+
 ___
 ## Overview
 
@@ -39,6 +40,7 @@ People love taking hikes, running, and walking in Hawaii. There are many areas a
 ### The Solution
 
 The Outdoor Buddies App will allow students to login, create a profile marking certain preferences, view pre-existing groups or create a new one, and join with other students on the many beautiful hiking, running, and walking spots on Oahu. They can message each other within the app, post announcements for group hiking events, and create a community.
+
 ___
 ## Project
 
@@ -56,7 +58,6 @@ To make Outdoor Buddies easily accessible to anyone, our application is actively
 [View Outdoor Buddies Live](https://my-nextjs-application-nmuczljz2-outdoor-buddies.vercel.app/)
 
 ___
-
 ## User Guide
 
 This section provides a walkthrough of the Outdoor Buddies user interface and its capabilities.
@@ -383,8 +384,8 @@ The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) wa
 ## Milestone 3: Final touches
 
 The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc. We added in a dynamic search that can filter based on certain components for both Hikes and Groups. Groups also now has a Forum Page where users can post asking a group some questions or to request to join.
-___
 
+___
 ## Team
 
 OutdoorBuddies is designed, implemented, and maintained by [Brycen Kano](https://brycenk05.github.io/) and [Kelly Masaki](https://kellym12.github.io/Professional-Portfolio/).  
