@@ -6,6 +6,5 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: true
   repository_url: https://github.com/outdoor-buddies
-deployment_url: https://my-nextjs-application-e8qynatj4-outdoor-buddies.vercel.app/
 gems:
   - jekyll-mentions

@@ -5,7 +5,7 @@
 ## Table of contents
 
 * [Overview](#overview)
-* [Deployment](#deployment)
+* [Project](#project)
 * [User Guide](#user-guide)
   * [Landing Page](#landing-page)
   * [Sign in and sign up](#sign-in-and-sign-up)
@@ -41,7 +41,17 @@ ___
 
 ###
 
-## Deployment
+## Project
+
+### Github
+
+View the Outside Buddies Organization [here](https://github.com/outdoor-buddies)
+
+View the Outside Buddies Development Page Repository [here](https://github.com/outdoor-buddies/outdoor-buddies.github.io)
+
+View the Outside Buddies Project Repository [here](https://github.com/outdoor-buddies/my-nextjs-application)
+
+### Deployment
 
 Our application is actively being developed and is deployed via Vercel.  
 [View Outdoor Buddies Live](https://my-nextjs-application-nmuczljz2-outdoor-buddies.vercel.app/)
