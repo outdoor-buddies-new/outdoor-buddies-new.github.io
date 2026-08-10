@@ -151,11 +151,11 @@ Once it is filled out, the page should look something like this
 
 Users can click on the 'View Details' Button to get more information on what the group is about: how many members are there, if there's a cap to how many members they will accept, and a description meant for the group to tell the world what it's about.
 
-![](./images/group-details.png)
+![](./images/group-details-page.png)
 
  If the User created the group themselves, then the details page will look like it does below.
  
-![](./images/group-details-other.png)
+![](./images/group-details-page-other.png)
 
 Users can click the 'Edit Group' Button and they will be redirected to the form below that allows for editing the details of the group. They can also click on the 'TrashCan Icon' Button to Delete the specific Group.
 
@@ -204,8 +204,8 @@ Users can click on the 'View Details' Button to get more information on what ano
 
 Users can click the 'Edit Profile' Button and they will be redirected to the form below that allows for editing the details of the profile. They can also click on the 'TrashCan Icon' Button to Delete the Profile. Once the profile is deleted, 'View Profile' will again redirect to the same form used to create a profile.
 
-![](./images-temp/edit-profile-form-1.png)
-![](./images-temp/edit-profile-form-2.png)
+![](./images/edit-profile-form-1.png)
+![](./images/edit-profile-form-2.png)
 ___
 
 ## Developer Guide
@@ -358,13 +358,13 @@ Developers and contributors should ensure that all CI checks pass before merging
 #### Contribution Workflow
 
 Typical Development Flow
-- Create an Issue Branch
-- Implement Changes
-- Run `npm run lint` and `npx playwright test`
-- Commit and push your branch
-- Open a pull request
-- Ensure CI passes
-- Request review from team members
+* Create an Issue Branch
+* Implement Changes
+* Run `npm run lint` and `npx playwright test`
+* Commit and push your branch
+* Open a pull request
+* Ensure CI passes
+* Request review from team members
 ___
 
 ## Community Feedback
