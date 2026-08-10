@@ -72,37 +72,47 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 Scroll down and click on the "Sign In" Button or click on the "Login" button in the upper right corner of the Navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](./images-temp/sign-in.png)
+![](./images/signin.png)
 
 Alternatively, you can select "Sign up" in the same locations as "Sign In" to go to the following page and register as a new user:
 
-![](./images-temp/sign-up.png)
+![](./images/signup.png)
 
 Upon sign in/sign up, you will be redirected to the Announcements page of the website.
 
-### Index pages (Announcements, Hike Recommendation, Groups, Profiles)
+![](./images/announcements-events-page.png)
 
-Outdoor Buddies provides four public pages that help users navigate the site in different ways. Users are encouraged to log in to their profiles when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
+### Index pages (Groups, Profiles)
 
-![](./images-temp/profiles.png)
+Outdoor Buddies provides four public pages that help users navigate the site in different ways.
 
-The Profiles page shows all the current defined Profiles and their associated Groups:
+#### Announcements and Events
 
-![](./images-temp/announcements-events-page.png)
+The Announcements page offers the admins a way to interact with users through Events and Announcements. Users can see new Events that they can join and Admins can post announcements for either upcoming events or changes to the website.
 
-The announcements page offers the admins a way to interact with users through events and announcements. When a developer is signed in, they have access to a button to create an announcement that will redirect to a form that upon submission, shares with users across the site whether it be events, updates or more.
+![](./images/announcements-events-page.png)
 
-![](./images-temp/event-details.png)
+Users can hit the 'View Details' Button on any Event or Announcement to get more information about what is happening and when.
 
-Users can find out more details through Event Details page.
+![](./images/event-details.png)
 
-As mentioned, an admin/developer can add announcements but also edit existing announcements in the announcements page
+When an admin is signed in, this is what the Announcements and Events page will look like. Admins can connect with Users by sharing events, announcements, updates or more on this page.
 
-![](./images-temp/add-event-admin.png)
+![](./images/announcements-events-page-admin.png)
 
-![](./images-temp/edit-event-admin.png)
+An admin can click on the 'Create Announcement' Button to create a new Event or Announcement and they will be redirected to the form below.
 
-If an admin feels an announcement is pointless or the date has passed, they can simply press the red trashcan icon on the associated event and delete it.
+![](./images/add-event-form.png)
+
+An admin can click on the 'Edit' Button to change the details of the Event or Announcement and they will be redirected to the form below. Editing applies to existing and future Announcements and Events. If an admin notices a mistake on an announcement or the date has passed, They can also click on the 'TrashCan Icon' Button to Delete the specific Event or Announcement
+
+![](./images/edit-event-form.png)
+
+#### List of Hikes
+
+The Hikes page offers users who are new to Hawaii a way to get more information on the different hikes that people can do on Oahu. 
+
+Users are encouraged to log in to their profiles when trying to access these different pages, and if they do log in they will be able to see what each page has to offer.
 
 ![](images-temp/hike-list.png)
 
@@ -113,6 +123,8 @@ While it isn't shown, the search function does work and searches by name of the 
 ![](images-temp/hike-details.png)
 
 Users can view more information about a hike including what to bring, what to look out for and more.
+
+#### Groups
 
 ![](./images-temp/groups.png)
 
@@ -133,6 +145,13 @@ Once users are logged in, they can also create a new group if they would like, e
 Users can also edit the group information
 
 Users can also request to join (need to implement this feature though)
+
+#### Profiles
+
+The Profiles page shows all the current defined Profiles and their associated Groups:
+
+![](./images/profile-page.png)
+
 
 ![](./images-temp/profiles.png)
 
