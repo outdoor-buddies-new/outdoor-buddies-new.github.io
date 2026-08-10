@@ -31,15 +31,13 @@ The goal is to make outdoor activities more accessible, social, and safer by hel
 
 ### The Problem
 
-ee
+People love taking hikes, running, and walking in Hawaii. There are many areas and paths with beautiful scenery all around Oahu. Sometimes people don’t feel comfortable hiking, running or walking by themselves, and it can be hard to find a group of people with whom to go.
 
 ### The Solution
 
-ee
+The Outdoor Buddies App will allow students to login, create a profile marking certain preferences, view pre-existing groups or create a new one, and join with other students on the many beautiful hiking, running, and walking spots on Oahu. They can message each other within the app, post announcements for group hiking events, and create a community.
 
 ___
-
-###
 
 ## Project
 
@@ -55,6 +53,8 @@ View the Outside Buddies Project Repository [here](https://github.com/outdoor-bu
 
 Our application is actively being developed and is deployed via Vercel.  
 [View Outdoor Buddies Live](https://my-nextjs-application-nmuczljz2-outdoor-buddies.vercel.app/)
+
+___
 
 ## User Guide
 
@@ -153,6 +153,8 @@ Users can also edit their profile information
 
 Once logged in a User can select their username in the top right of the Navbar to view their profiles as well (still need to implement is wip)
 
+___
+
 ## Developer Guide
 
 If you are interested in running Outdoor Buddies locally, please follow the instructions below.
@@ -161,21 +163,42 @@ If you are interested in running Outdoor Buddies locally, please follow the inst
 
 Before running the application, make sure you have the following installed:
 
-- [Github Desktop](https://desktop.github.com/download/)
-- [Node.js](https://nodejs.org/en/download) (Comes with npm)
-- [PostgreSQL](https://www.postgresql.org/download/)
+- [Latest Node.js](https://nodejs.org/en/download) (Comes with npm)
+- [Latest PostgreSQL](https://www.postgresql.org/download/)
+- [Latest Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Code Editor
 
-Optional:
-- [Visual Studio Code](https://code.visualstudio.com/) — Recommended code editor. Other editors or IDEs may be used.
+### Optional
+
+These are reccomended to make navigation and seeing components easier
+
+- Code Editor (Reccomended): [VSCode](https://code.visualstudio.com/Download?_exp_download=fb315fc982) (although other editors or IDES may be used)
+- [Github Desktop](https://desktop.github.com/download/)
+- [pgAdmin](https://www.pgadmin.org/download/)
 
 ### Clone the repository
 
 Clone the application repository locally using Github Desktop and navigate into the project directory via your editor or IDE and install required dependencies.
+
+### Install Dependencies
+
 ```
 npm install
 ```
 
 You will be able to view all of the files associated with the project and edit features or even implement your own!
+
+### Environment Setup
+
+This project requires a .env file for...
+
+NextAuth configuration
+Database connection (PostgreSQL)
+Prisma
+Session keys
+figure out how to rephrase above
+
+Create a `.env` file ...
 
 ### Database Setup
 Create a PostgreSQL database for the application.
