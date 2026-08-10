@@ -5,7 +5,6 @@
 ## Table of contents
 
 * [Overview](#overview)
-* [Team](#team)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
   * [Landing Page](#landing-page)
@@ -22,7 +21,7 @@
   * [Milestone 3: Final touches](#milestone-3-final-touches)
 * [Team](#team)
 
----
+___
 
 ## Overview
 
@@ -38,7 +37,7 @@ ee
 
 ee
 
----
+___
 
 ###
 
