@@ -66,10 +66,10 @@ This section provides a walkthrough of the Outdoor Buddies user interface and it
 The landing page is presented to users when they visit the top-level URL to the site. This allows users to see what the mission statement of the website is to determine if they would like to utilize its services. There are also user reviews below to see if it is something they might be interested in. (in progress)
 
 <p align="center">
-  <img src="images/mockup/landing_page-1.png" alt="Landing Page" width="100%">
+  <img src="images/landing_page-1.png" alt="Landing Page" width="100%">
 </p>
 <p align="center">
-  <img src="images/mockup/landing_page-2.png" alt="Landing Page" width="100%">
+  <img src="images/landing_page-2.png" alt="Landing Page" width="100%">
 </p>
 
 ### Sign in and sign up
