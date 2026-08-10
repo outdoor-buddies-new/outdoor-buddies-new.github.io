@@ -157,13 +157,29 @@ Users can click the 'Edit Group' Button and they will be redirected to the form 
 
 ![](./images/edit-group-form.png)
 
+Below that is the 'Group Forum' Button which will allow users to post a question that they have for the group or a request to join the group. (Users can join more than one group if they would like, although they should understand what each group's expecations are). Below is an example of an empty forum.
+
+![](./images/group-forum-empty-page.png)
+
+Users can click the 'Create Post' Button to post a question on the forum. It will redirect the user to this form
+
+![](./images/add-post-form.png)
+
+Posting this results in the following image on the forum
+
+![](./images/group-forum-post-page.png)
+
+When an admin is signed in, this is what the Forum page will look like. Admins can delete different posts if they are deemed inappropriate.
+
+![](./images/group-forum-post-admin.png)
+
 #### Profiles
 
 The Profiles page shows all the currently defined Profiles from Users on the website with their associated image, group name if applicable, and description. Only one profile per User. While it isn't shown, the search function does work and searches by name, status, groupname, and description of the profile.
 
 ![](./images/profile-page.png)
 
-In the navbar, under the user email, Users can click on the 'View Profile' Button to create a new profile. This redirects them to the form below.
+If the User hasn't created a profile yet, in the navbar, under the user email, Users can click on the 'View Profile' Button to create a new profile. This redirects them to the form below. Once the profile is created, the 'View Profile' Button will redirect to the same page as 'View Details'.
 
 ![](./images/add-profile-form-empty.png)
 
@@ -172,23 +188,20 @@ Once it is filled out, the page should look something like this
 ![](./images/add-profile-form-full-1.png)
 ![](./images/add-profile-form-full-2.png)
 
-The Profiles page shows all the currently defined Profiles on the website with their associated interests and descriptions.
+Users can click on the 'View Details' Button to get more information on what another user's goal is for registering on this website: a status statement for saying how one feels in the moment, a description box that can tell more, and if applicable to say if they are already in a group or not (users can join multiple groups).
 
-While it isn't shown, the search function does work and searches by name of the profile and other words in the description or summary. (maybe we'll show can think later)
+![](./images/profile-details-page-other-1.png)
+![](./images/profile-details-page-other-2.png)
 
-![](./images-temp/profiles-details.png)
+ If the User has already created the profile themselves, then the details page will look like it does below.
+ 
+![](./images/profile-details-page1.png)
+![](./images/profile-details-page1.png)
 
-If Users would like to learn more information about different Profiles (other Users), they can click on "View Details" and can see more information about the profiles
+Users can click the 'Edit Profile' Button and they will be redirected to the form below that allows for editing the details of the profile. They can also click on the 'TrashCan Icon' Button to Delete the Profile. Once the profile is deleted, 'View Profile' will again redirect to the same form used to create a profile.
 
-![](./images-temp/add-profile.png)
-
-Once users are logged in, they can also create a new profile if they would like, especially if they already have some friends in mind and they would like to get new people to join. On the top left, users can click the button and will be and will be redirected to a form:
-
-![](./images-temp/edit-profile.png)
-
-Users can also edit their profile information
-
-Once logged in a User can select their username in the top right of the Navbar to view their profiles as well (still need to implement is wip)
+![](./images-temp/edit-profile-form-1.png)
+![](./images-temp/edit-profile-form-2.png)
 
 ___
 
