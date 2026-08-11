@@ -430,7 +430,7 @@ The goal of [Milestone 1](https://github.com/orgs/outdoor-buddies/projects/1) wa
 
 The goal of [Milestone 2](https://github.com/orgs/outdoor-buddies/projects/3) was to implement the data model: for Announcements(/Events), Hikes, and for Groups and Profiles (especially connecting them to a specific User) on the site. We also fixed certain login issues, transferring to the vercel deployment database, and added basic features, such as searching, adding, editing, and deleting functions. Users can add, edit, and delete Groups and Profiles. Admins can add, edit, and delete Announcements(/Events) and Hikes.
 
-## Milestone 3: Final touches
+### Milestone 3: Final touches
 
 The goal of [Milestone 3](https://github.com/orgs/outdoor-buddies/projects/4) is to clean up the code base, implement features that we were unable to complete in Milestone 2, have some users test our app while also implementing their suggestions, add more entries into our tables, adjust some of the styles, including fonts, colors etc. We added in a dynamic search that can filter based on certain components for both Hikes and Groups. Groups also now has a Forum Page where users can post asking a group some questions or to request to join.
 
