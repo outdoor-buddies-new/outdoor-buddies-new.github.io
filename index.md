@@ -392,31 +392,32 @@ A feature that you could consider implementing in the future is allowing users t
 
 **Things that I liked:**
 
-S
+I like the logo and the colors, it's quirky. It gives a early 2000s era of internet aesthetic. I also like that the auth has been set up and that typing the url pathways doesnt allow users to access forbidden pages. Overall, I like the concept, I think it's neat.
 
 **Things that could be improved:**
 
-S
+A future feature could be having a search bar algorithm where the "likeliest" search will dropdown from the search bar based on what is the most likely successive letter. Also having back buttons would make the experience a lot better.
+
 
 ### UH Community Member 4: (Mathematics Major, some computer experience)
 
 **Things that I liked:**
 
-S
+I really like the concept and colors. It's nice to have information about the Hikes as well to give people ideas, even if they don't set up a Group within the application. It's nice that if the image link is incorrect, you have a default profile picture and image file that loads up, so that you don't have to just look at a clear error with some text.
 
 **Things that could be improved:**
 
-S
+It would be nice to be able to message different users just within the Profile like a private message.
 
 ### UH Community Member 5: (Mathematics Major, little computer experience)
 
 **Things that I liked:**
 
-S
+I overall liked the concept. I think that the website looks really cool. I like that I was able to write a post. I thought that was nice. Also having a Hikes List for people who are new here is a great idea, especially since there are a lot of hikes on Oahu.
 
 **Things that could be improved:**
 
-Seed
+There could be a discussion feature underneath each hike for users to communicate their tips and tricks. Implementing a map feature for the hikes could be nice too. A friends system would also be a nice touch, where you can friend other profiles.
 
 ___
 ## Development History
