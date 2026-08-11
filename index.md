@@ -1,4 +1,4 @@
-[![CI](https://github.com/outdoor-buddies/my-nextjs-application/actions/workflows/ci.yml/badge.svg)](https://github.com/outdoor-buddies/my-nextjs-application/actions/workflows/ci.yml)
+[![outdoor-buddies](https://github.com/outdoor-buddies-new/outdoor-buddies-new/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/outdoor-buddies-new/outdoor-buddies-new/actions/workflows/ci.yml)
 
 # Outdoor Buddies
 
