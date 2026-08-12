@@ -5,7 +5,7 @@ show_downloads: false
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
-  repository_url: https://github.com/orgs/outdoor-buddies/repositories
-website: https://my-nextjs-application-7pz8x81id-outdoor-buddies.vercel.app/
+  repository_url: https://github.com/orgs/outdoor-buddies-new/repositories
+website: https://outdoor-buddies-d08trvj81-outdoor-buddies-new.vercel.app/
 gems:
   - jekyll-mentions
